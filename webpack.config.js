@@ -76,7 +76,7 @@ module.exports = {
       // 处理html文件
         new HtmlWebpackPlugin({
             template:"./src/index.html",
-            favicon:"./favicon.ico"
+            favicon:"./src/img/favicon.ico"
         }),
         // 独立css文件
         new ExtractTextPlugin("css/[name].css"),
